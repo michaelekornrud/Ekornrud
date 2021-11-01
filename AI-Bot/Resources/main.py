@@ -3,7 +3,7 @@ import discord
 import os
 from dotenv import load_dotenv
 from neuralintents import GenericAssistant
-import youtube_dl
+
 
 chatbot = GenericAssistant('intents.json')
 chatbot.train_model()
