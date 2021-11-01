@@ -40,6 +40,6 @@ async def on_message(message):
 
     if message.content.startswith("/play"):
         filename = chatbot.request(message.content[4:])
-        voice_channel.play(discord.FFmpegPCMAudio(executable="ffmpeeg.exe", source=filename))
+        #voice_channel.play(discord.FFmpegPCMAudio(executable="ffmpeeg.exe", source=filename))
 
 client.run(TOKEN)
